@@ -1,0 +1,73 @@
+[
+    {
+        "key": "Client_Id",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "Client_Id",
+            "description": "The Client_Id to connect to the API",
+            "required": true
+        }
+    },
+    {
+        "key": "Client_Secret",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "Client_Secret",
+            "description": "The Client_Secret to connect to the API  # Whether client_secret is required is dependent on the configuration of the client.",
+            "required": false
+        }
+    },
+    {
+        "key": "refresh_token",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "type": "password",
+            "label": "refresh_token",
+            "description": "The refresh_token to connect to the API. The refresh token can be obtained in a different [Process](https://developer.loket.nl/OauthCode).",
+            "required": true
+        }
+    },
+    {
+        "key": "Environment",
+        "type": "radio",
+        "defaultValue": "Production",
+        "templateOptions": {
+            "label": "Select the Loket environment",
+            "description": "The environment section makes sure the script uses the correct URLs.",
+            "options": [
+                {
+                    "value": "Production",
+                    "label": "Loket Production Envrionment"
+                },
+                {
+                    "value": "Acceptance",
+                    "label": "Loket Acceptance Envrionment"
+                }
+            ]
+        }
+    },
+    {
+        "key": "employer",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "employer",
+            "description": "The company name of the employer in Loket",
+            "required": true
+        }
+    },
+    {
+        "key": "IsDebug",
+        "type": "checkbox",
+        "defaultValue": true,
+        "templateOptions": {
+            "label": "Toggle debug logging",
+            "description": "When toggled, debug logging will be displayed",
+            "required": false
+        }
+    }
+]
