@@ -1,0 +1,246 @@
+{
+    "personMappings": [
+        {
+            "name": "Contact.Business.Email",
+            "mode": "field",
+            "value": "contactInformation.emailAddress",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Contact.Business.Phone.Mobile",
+            "mode": "field",
+            "value": "contactInformation.mobilePhoneNumber",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Details.BirthDate",
+            "mode": "field",
+            "value": "personalDetails.dateOfBirth",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Details.Gender",
+            "mode": "field",
+            "value": "personalDetails.civilStatus.value",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.Convention",
+            "mode": "field",
+            "value": "personalDetails.howToFormatLastName.value",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.FamilyName",
+            "mode": "field",
+            "value": "personalDetails.lastName",
+            "validation": {
+                "required": true
+            }
+        },
+        {
+            "name": "Name.FamilyNamePartner",
+            "mode": "field",
+            "value": "personalDetails.lastNamePartner",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.FamilyNamePartnerPrefix",
+            "mode": "field",
+            "value": "personalDetails.prefixPartner",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.FamilyNamePrefix",
+            "mode": "field",
+            "value": "personalDetails.prefix",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.GivenName",
+            "mode": "field",
+            "value": "personalDetails.firstName",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.Initials",
+            "mode": "field",
+            "value": "personalDetails.initials",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Name.NickName",
+            "mode": "field",
+            "value": "personalDetails.firstName",
+            "validation": {
+                "required": true
+            }
+        }
+    ],
+    "contractMappings": [
+        {
+            "name": "CostCenter.ExternalId",
+            "mode": "field",
+            "value": "Function.distributionUnit.key",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "CostCenter.Name",
+            "mode": "field",
+            "value": "Function.distributionUnit.description",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Department.DisplayName",
+            "mode": "field",
+            "value": "Function.department.description",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Department.ExternalId",
+            "mode": "field",
+            "value": "Function.department.key",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Details.HoursPerWeek",
+            "mode": "field",
+            "value": "Workinghours.shift.fullTimeHoursPerWeek",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Employer.Code",
+            "mode": "field",
+            "value": "Employer.Code",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Employer.ExternalId",
+            "mode": "field",
+            "value": "Employer.Id",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Employer.Name",
+            "mode": "field",
+            "value": "Employer.Code",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "EndDate",
+            "mode": "field",
+            "value": "endDate",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "ExternalId",
+            "mode": "field",
+            "value": "ExternalId",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Organization.Code",
+            "mode": "field",
+            "value": "Employer.Code",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Organization.ExternalId",
+            "mode": "field",
+            "value": "Employer.Id",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Organization.Name",
+            "mode": "field",
+            "value": "Employer.Name",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "StartDate",
+            "mode": "field",
+            "value": "startDate",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Title.ExternalId",
+            "mode": "field",
+            "value": "Function.function.key",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Title.Name",
+            "mode": "field",
+            "value": "Function.function.description",
+            "validation": {
+                "required": false
+            }
+        },
+        {
+            "name": "Type.Description",
+            "mode": "field",
+            "value": "typeOfEmployee.value",
+            "validation": {
+                "required": false
+            }
+        }
+    ]
+}
